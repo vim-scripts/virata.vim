@@ -1,0 +1,10 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=930
+
+Virata AConfig Configuration Script Syntax
+is used in AConfig scripts to build ISOS firmware.
+This syntax can be detected by a combination of the following:
+ 1) The file extension ".hw", ".sw", ".pkg" and ".module",
+ 2) The file name pattern "mk.*\.cfg",
+ 3) The string "Virata" or "Conexant" in the first 5 lines,
+ 4) The subdirectory "/atmos/" in the scripts' full path.
+Note that due to mergers Virata has become part of Conexant.
